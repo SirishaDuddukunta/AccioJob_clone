@@ -17,12 +17,18 @@ header{
 }
 .login-btn{
     width: 90px;
+    color: var(--primaryskyblue, #2F80ED);
+font-family: 'ABeeZee', sans-serif; /* Use a fallback font in case 'ABeeZee' isn't available */
+font-size: 14px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+
 }
 .new{
     text-align: center;
     width: 80%;
     margin-inline: auto;
-    
     font-weight: 400;
     font-family: 'ABeeZee';
     font-style: italic;
@@ -92,6 +98,7 @@ header{
     flex-direction: column;
     justify-content: center;
     padding-inline: 10px;
+    font-style: italic;
 }
 .hero-counts>img{
     background-color: white;
@@ -104,6 +111,7 @@ header{
 .hero-counts>.hero-counts-sub{
     font-size: smaller;
     background-color: white;
+    font-style: italic;
 }
 .made-with{
     padding: 10px;
@@ -123,8 +131,18 @@ header{
     box-shadow: 0px 0px 50px aquamarine;
 }
 .my-card-info{
-    color: #808d9d;
+    /*color: #808d9d;
     background-color: white;
+    text-align: center;
+    width: 80%;*/
+    width: 278px;
+    color: #808d9d;
+    margin: 0 auto;
+    font-weight: 400;
+    font-family: 'ABeeZee', sans-serif;
+    font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .input-div{
     width: 100% !important;
